@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cinemark</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- google fonts -->
+    <!-- nosoroboto sans 300 - textos pequeños-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- open sans semibold 600- titulos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Open+Sans:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- css main -->
+        <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="contenedor-logo" >
+            <img class="logo" src="../imagenes/logo 10 x 4.png" alt="Logo cinemark">
+        </div>
+        <section class="section" >
+            <div class="topnav" id="myTopnav">
+                <a href="../index.html">Inicio</a>
+                <a href="../pages/peliculas.html"> Películas</a>
+                <a href="../pages/promociones.html"> Promociones</a>
+                <a href="../pages/candy.html"> Candy</a>
+                <a href="../pages/preguntas-frecuentes.html"> Preguntas frecuentes</a>
+                <a href="../pages/mi-cuenta.html"> Mi cuenta</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <h2  class="titulo-crearcuenta">Crear cuenta</h2>
+        <form class="form">
+                            <div class="col-md-5" >
+                <label for="validationDefault01" class="form-label" >Nombre</label>
+                <input type="text" class="form-control bg-dark-x"placeholder="" class="form-control" id="validationDefault01" value="" required>
+            </div>
+        <br>
+        <br>
+        <div class="col-md-5" >
+            <label for="validationDefault02" class="form-label" >Apellido</label>
+            <input type="text" class="form-control bg-dark-x"placeholder="" class="form-control" id="validationDefault02" value="" required>
+        </div>
+        <br>
+        <br>
+            <div class="col-md-5">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <br>
+            <br>
+            <div class="col-md-5">
+                <label for="inputPassword4" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <br>
+            <br>
+            <div class="col-md-5">
+                <label for="inputPassword4" class="form-label">Confirmar Contraseña</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <br>
+            <br>
+        <div class="col-md-5">
+            <label for="validationDefaultUsername" class="form-label">Número de documento</label>
+            <div class="input-group">
+                <span class="input-group-text"  id="inputGroupPrepend2">
+                <select class="form-select" id="validationDefault02" required>
+                    <option selected disabled value="">Tipo</option>
+                    <option>DNI</option>
+                    <option>CIF</option>
+                    <option>PASAPORTE</option>
+                </select>
+                </span>
+                <input type="text"  class="form-control bg-dark-x"placeholder="" class="form-control bg-dark-x"placeholder=""  class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+            </div>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-5">
+                <label for="validationDefault02" class="form-label">Fecha de nacimiento</label>
+                <input type="text"  class="form-control bg-light-x"placeholder="" class="form-control" id="validationDefault02" value="" required>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-5">
+                <label for="validationDefault02" class="form-label">Numero de celular</label>
+                <input type="text"  class="form-control bg-dark-x"placeholder="" class="form-control" id="validationDefault02" value="" required>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-5">
+                <label for="inputCity" class="form-label">Provincia</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <br>
+            <br>
+            <div class="col-md-5">
+                <label for="inputState" class="form-label">Complejo habitual</label>
+                <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>Unicenter</option>
+                <option>Dot</option>
+                <option>TOM</option>
+                <option>Alto Avellaneda</option>
+                <option>Alto Palermo</option>
+                <option>Abasto Shopping</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-5">
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Check me out
+                </label>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-5">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+            <br>
+            <br>
+            </form>
+    </main>
+
+    <footer class="footer" >
+        <div class="contenedor-logo" >
+            <img class="logo-footer" src="../imagenes/logo 10 x 4.png" alt="logo">
+        </div>
+        <section class="columnas-footer">
+            <div class="texto-izquierdo">
+                <h2 class="texto" >Encontranos en nuestras redes</h2>
+                            <a class="bases" href="https://www.instagram.com/cinemarkhoyts/?hl=es">
+                <img class="instagram" src="../imagenes/instagram.png" alt="instagram">
+            </a>
+            <a class="bases" href="https://www.facebook.com/CinemarkHoyts/?locale=es_LA">
+                <img class="facebook" src="../imagenes/facebook.png" alt="facebook">
+            </a>
+            <a class="bases" href="https://twitter.com/CinemarkHoyts/status/1680927184460865536">
+                <img class="twitter" src="../imagenes/twitter.png" alt="twitter">
+            </a>
+            <a class="bases" href="https://www.tiktok.com/@cinemarkhoytsarg?is_from_webapp=1&sender_device=pc">
+                <img class="tiktok" src="../imagenes/tiktok.png" alt="tiktok">
+            </a>
+            <a class="bases" href="https://www.threads.net/login">
+                <img class="threads" src="../imagenes/threads.png" alt="threads">
+            </a>
+            </div>
+        <div class="texto-medio">
+            <a class="bases" href="https://tickets.cinemarkhoyts.com.ar/NSTicketing/StaticContent/Terminos_y_CondicionesCinemarkStore.pdf?v=00002199&_gl=1*1izh6l2*_ga*MjA1ODMyODAzMC4xNjU2MDIzMTc5*_ga_PT9RP27V93*MTY5NTQwMjk2NC4zNS4wLjE2OTU0MDI5NjQuNjAuMC4w">
+                <p class="base1" >Bases Cinemark Store</p>
+            </a>
+            <a class="bases" href="https://tickets.cinemarkhoyts.com.ar/NSTicketing/StaticContent/Terminos_y_CondicionesCandy.pdf?v=00002199&_gl=1*b2mkdd*_ga*MjA1ODMyODAzMC4xNjU2MDIzMTc5*_ga_PT9RP27V93*MTY5NTQwMjk2NC4zNS4xLjE2OTU0MDQxNjMuMS4wLjA.">
+                <p class="base2" >Bases venta candy online</p>
+            </a>
+            <a class="bases" href="https://tickets.cinemarkhoyts.com.ar/NSTicketing/StaticContent/Terminos_y_Condiciones.pdf?v=00002199&_gl=1*c43w0q*_ga*MjA1ODMyODAzMC4xNjU2MDIzMTc5*_ga_PT9RP27V93*MTY5NTQwMjk2NC4zNS4xLjE2OTU0MDQxNTUuOS4wLjA.">
+                <p class="base3" >Bases venta entradas online</p>
+            </a>
+        </div>
+            <div class="texto-derecho" >
+                <!-- <a href="AGREGAR LINK DE BOTON DE ARRPENTIMIENTO"> -->
+                    <p class="boton-arrepientimiento" >Botón de arrepentimiento</p>
+                </a>
+                <a class="bases" href="https://cinemark-hoyts.zendesk.com/hc/es">
+                    <p class="contacto"> Contacto</p>
+                </a>
+                <a class="bases" href="https://tickets.cinemarkhoyts.com.ar/NSTicketing/nsRRHH.aspx?_gl=1*1onwipz*_ga*MjA1ODMyODAzMC4xNjU2MDIzMTc5*_ga_PT9RP27V93*MTY5NTQwMjk2NC4zNS4xLjE2OTU0MDQxMjUuMzkuMC4w">
+                    <p class="rrhh">RRHH</p>
+                </a>
+            </div>
+        </section>
+    </footer>
+    </body>

@@ -1,0 +1,814 @@
+.body{
+    background-color: black;
+}
+
+.contenedor-logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo{
+    height: 300px;
+    width: 800px;
+    margin-top: -80px;
+    margin-bottom: -50px;
+    display: flex;
+}
+
+
+/* NAVBAR */
+.navbar{
+    background-color: #1E1B1B;
+}
+.navbar-nav{
+    color: white;
+}
+.section{
+    background-color: #1E1B1B;
+}
+.topnav {
+    overflow: hidden;
+    margin-left: 370px;
+    margin-right: 370px;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+.topnav a {
+    display: inline-block;
+    justify-content: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;;
+    margin-left: 5px;
+}
+.topnav a:hover {
+    background-color: #B5121B;
+    color: black;
+}
+.topnav a.active {
+    background-color: #1E1B1B;
+    color: white;
+}
+
+/* PELICULAS INICIO */
+.titulo-estrenos{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.peliculas{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+/* BARBIE */
+.barbie{
+    width: 250px;
+    margin-right: 120px;
+}
+.peli-barbie{
+    text-decoration: none;
+}
+.titulo-barbie{
+    color: white;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.titulo-barbie:hover{
+    color: #B5121B;
+}
+
+.titulo-b{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.columnas-b{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columna-izquierda{
+    padding-left: 200px;
+}
+
+.columna-derecha{
+    padding-left: 200px;
+}
+
+.foto{
+    width: 600px;
+}
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1E1B1B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sinopsis{
+    margin-right: 350px;
+}
+
+/* ELEMENTOS */
+.elementos{
+    width: 250px;
+}
+.titulo-elementos{
+    margin-top: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.titulo-elementos:hover{
+    color: #B5121B;
+}
+
+.peli-elementos{
+    text-decoration: none;
+}
+
+.titulo-e{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.columnas-e{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+.columna-izquierda{
+    padding-left: 300px;
+}
+
+.columna-derecha{
+    padding-left: 200px;
+}
+
+.foto{
+    width: 600px;
+}
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1E1B1B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sinopsis-e{
+    margin-right: 200px;
+}
+
+/* OPPENHEIMER */
+.oppenheimer{
+    width: 250px;
+    margin-left: 120px;
+}
+.titulo-oppenheimer{
+    margin-left: 120px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.titulo-oppenheimer:hover{
+    color: #B5121B;
+}
+
+.peli-oppenheimer{
+    text-decoration: none;
+}
+
+
+.titulo-o{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columnas-o{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columna-izquierda{
+    padding-left: 300px;
+}
+
+.columna-derecha{
+    padding-left: 200px;
+}
+
+.foto{
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1E1B1B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sinopsis-e{
+    margin-right: 200px;
+}
+
+/* HABLAME */
+.hablame{
+    width: 250px;
+    margin-left: 120px;
+}
+.titulo-hablame{
+    color: white;
+    margin-top: 8px;
+    margin-left: 120px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.titulo-hablame:hover{
+    color: #B5121B;
+}
+
+.peli-hablame{
+    text-decoration: none;
+}
+
+.titulo-h{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columnas-h{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columna-izquierda{
+    padding-left: 300px;
+}
+
+.columna-derecha{
+    padding-left: 200px;
+}
+
+.foto{
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1E1B1B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sinopsis-e{
+    margin-right: 200px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #1E1B1B;
+}
+.logo-footer{
+    height: 40%;
+    width: 450px;
+    display: flex;
+    margin-top: -40px;
+    margin-bottom: -45px;
+}
+.columnas-footer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.texto-izquierdo{
+    margin-right: 80px;
+    text-decoration: none;
+}
+.texto-derecho{
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.texto-medio{
+    margin-left: 80px;
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.bases{
+    text-decoration: none;
+    color: white;
+}
+
+.bases:hover{
+    color: #B5121B;
+}
+
+/* REDES SOCIALES FOOTER */
+.instagram{
+    width: 60px;
+    margin: 10px;
+}
+.facebook{
+    width: 60px;
+    margin: 10px;
+}
+.twitter{
+    width: 60px;
+    margin: 10px;
+}
+.tiktok{
+    width: 60px;
+    margin: 10px;
+}
+.threads{
+    width: 60px;
+    margin: 10px;
+}
+
+/* PÁGINA PELICULAS */
+.titulo-peliculas{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* MEGALODON */
+.megalodon{
+    width: 250px;
+    margin-right: 120px;
+}
+.peli-megalodon{
+    text-decoration: none;
+}
+.titulo-megalodon{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 8px;
+    text-decoration: none;
+}
+.titulo-megalodon:hover{
+    color: #B5121B;
+}
+
+.titulo-m{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columnas-m{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columna-izquierda{
+    padding-left: 300px;
+}
+
+.columna-derecha{
+    padding-left: 200px;
+}
+
+.foto{
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1E1B1B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sinopsis-e{
+    margin-right: 200px;
+}
+
+
+/* MISION IMPOSIBLE */
+.mision{
+    width: 250px;
+    margin-right: 120px;
+}
+.peli-mision{
+    text-decoration: none;
+}
+.titulo-mision{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 8px;
+}
+.titulo-mision:hover{
+    color: #B5121B;
+}
+
+.titulo-m{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columnas-m{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columna-izquierda{
+    padding-left: 300px;
+}
+
+.columna-derecha{
+    padding-left: 200px;
+}
+
+.foto{
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1E1B1B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sinopsis-e{
+    margin-right: 200px;
+}
+
+
+/* MISION IMPOSIBLE */
+.mision{
+    width: 250px;
+    margin-right: 120px;
+}
+.peli-mision{
+    text-decoration: none;
+}
+.titulo-mision{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 8px;
+}
+
+.titulo-mision:hover{
+    color: #B5121B;
+}
+
+/* LA MONJA */
+.monja{
+    width: 250px;
+    margin-right: 120px;
+}
+.peli-monja{
+    text-decoration: none;
+}
+.titulo-monja{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 8px;
+}
+.titulo-monja:hover{
+    color: #B5121B;
+}
+
+.titulo-i{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columnas-i{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columna-izquierda{
+    padding-left: 300px;
+}
+
+.columna-derecha{
+    padding-left: 200px;
+}
+
+.foto{
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1E1B1B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sinopsis-e{
+    margin-right: 200px;
+}
+
+/* LA MONJA */
+
+.titulo-l{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columnas-l{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columna-izquierda{
+    padding-left: 300px;
+}
+
+.columna-derecha{
+    padding-left: 200px;
+}
+
+.foto{
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1E1B1B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sinopsis-e{
+    margin-right: 200px;
+}
+
+/* AFTER */
+.after{
+    width: 250px;
+}
+.peli-after{
+    text-decoration: none;
+}
+.titulo-after{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 8px;
+}
+.titulo-after:hover{
+    color: #B5121B;
+}
+
+.titulo-a{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.columnas-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columna-izquierda{
+    padding-left: 300px;
+}
+
+.columna-derecha{
+    padding-left: 200px;
+}
+
+.foto{
+    width: 600px;
+}
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1E1B1B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sinopsis{
+    margin-right: 300px;
+}
+
+/* PROMOCIONES */
+.columnas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.columna1{
+    padding: 25px;
+}
+.columna2{
+    padding: 25px;
+}
+.titulo-promociones{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* CANDY */
+.combos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.titulo-candy{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* PREGUNTAS FRECUENTES */
+.titulo-preguntas{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.visa{
+    width: 85px;
+    height: 55px;
+    margin-left: 15px;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+
+/* MI CUENTA */
+.titulo-micuenta{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inicio-sesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
+
+.crearcuenta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.crear-cuenta1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.crear-cuenta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration-line: underline;
+}
+
+.crear-cuenta:hover{
+    color: #B5121B;
+}
+
+
+.pregunta{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* CREAR CUENTA */
+
+.titulo-crearcuenta{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
